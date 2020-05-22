@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <script defer src="script.js"></script>
+    <title>Quiz App</title>
+</head>
+<body>
+    <img src="logo1c.png" alt="La Casa De Papel Logo" class="logo">
+    <h1>What character from <i>La casa de papel</i> are you?</h1>
+    <div class="frosted-wrapper">
+        <div class="container">
+            <div id="result-container" class="hide">
+                <h2>You are</h2>
+                <div class="person-grid">
+            
+                    <div id="result-fullname">Alba "NAIROBI" Flores</div>
+                    <img id="result-photo" src="https://d.newsweek.com/en/full/1578556/money-heist-season-4.jpg?w=1600&h=1600&q=88&f=89398f05b610061739be6d8349330c31">
+                    <div id="result-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, qui maiores ipsum enim molestias provident laborum quo optio, placeat iste modi doloribus alias mollitia ad repellendus tenetur sit dignissimos assumenda.
+                    </div>
+                    
+                </div>
+            </div>
+            <div id="initial-text">Click the button below to start the quiz and get to know what character correspond to your personality. </div>
+            <div id="question-container" class="hide">
+                <div id="question">Question</div>
+                <div id="answer-buttons" class="btn-grid">
+                    <label for="A"><input type="radio" name="answer" class="btn" value="A">A</label>
+                    <label for="B"></label><input type="radio" name="answer" class="btn" value="B">B</label>
+                    <label for="C"><input type="radio" name="answer" class="btn" value="C">C</label>
+                    <label for="D"><input type="radio" name="answer" class="btn" value="D">D</label>
+                </div>
+            </div>
+            <div class="controls">
+                <button id="start-btn" class="start-btn btn">Start</button>
+                <button id="next-btn" class="next-btn btn hide">Next</button>
+                <button id="result-btn" class="result-btn btn hide">Result</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
