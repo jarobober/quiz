@@ -105,7 +105,7 @@ h2 {
 
 #result-photo {
     margin: 0.8rem 0 0.3rem 0.3rem;
-    width: 50%;
+    width: 150px;
     height: 150px;
     object-fit: cover;
     float: right;
@@ -192,10 +192,6 @@ input[type=radio]:checked + label {
     box-shadow: 0 0 10px 5px rgb(199, 199, 199);
 }
 
-.checked {
-    
-}
-
 .start-btn, .next-btn, .result-btn {
     font-size: 1.5rem;
     padding: 10px 20px;
@@ -256,7 +252,7 @@ input[type=radio]:checked + label {
     }
 
     .btn:hover {
-        background-color: #333333cc;
+        background-color: #333333;
         cursor: pointer;
     }
 
